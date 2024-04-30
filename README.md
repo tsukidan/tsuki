@@ -24,7 +24,7 @@ Unlock a sleek and immersive Discord experience inspired by Windows 11's Fluent 
 ```
 <img alt="Name" src="https://img.shields.io/badge/Installation-A8C1E9?style=for-the-badge">
 
-1. Download the tsuki theme files from the release page, [GitHub repository](https://github.com/tsuki-discord/tsuki-theme).
+1. Download the tsuki theme files from the [release page](https://github.com/tsukidan/tsuki/releases).
   
 2. Open Discord and navigate to User Settings > Themes.
 
@@ -36,7 +36,7 @@ Unlock a sleek and immersive Discord experience inspired by Windows 11's Fluent 
 
 <img alt="Name" src="https://img.shields.io/badge/Support-A8C1E9?style=for-the-badge">
 
-For any questions, issues, or feedback, please visit our [GitHub repository](https://github.com/tsuki-discord/tsuki-theme).
+For any questions, issues, or feedback, please visit the [issues page.](https://github.com/tsukidan/tsuki/issues).
 
 <img alt="Name" src="https://img.shields.io/badge/Credits-A8C1E9?style=for-the-badge">
 

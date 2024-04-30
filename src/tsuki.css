@@ -1,1 +1,166 @@
-/*Main source CSS for tsuki*/
+
+/*
+*********************************************************************************************************
+ ✧･ﾟ: ✧･ﾟ: 𝓉𝓈𝓊𝓀𝒾 :･ﾟ✧:･ﾟ✧ - source
+ 𝐯 𝟎.𝟎.𝟏   
+*********************************************************************************************************
+*/
+:root
+{
+    --version-content : " 0.0.1";
+    --themeName       : "tsuki.";
+    --watermark       : " created by: danimhals";
+/*
+*********************************************************************************************************
+Discord value Override
+*********************************************************************************************************
+*/
+  --background-secondary: transparent;
+  --background-primary: transparent;
+  --background-tertiary: transparent;
+  --elevation-low: none;
+  --channels-default: #FFFFFF;
+/*
+*********************************************************************************************************
+Misc Variables
+*********************************************************************************************************
+*/
+  --blur  : blur(20px);
+--textShadow: 0 1px 2px rgba(0,0,0,0.5);
+  --nickname: 40px;
+  --nickWeight: 900;
+/*
+*********************************************************************************************************
+Fluent Design
+*********************************************************************************************************
+*/
+  --fluentDropShadow: 2px 2px 3px #00000028;
+  --fluentBorder: 10px;
+  --fluentBg: rgba(0,0,0,0.35);
+  --fluentTransition: all ease 0.4s;
+}
+/*
+*********************************************************************************************************
+Transparency for Main Client
+*********************************************************************************************************
+*/
+/*Main Chat*/
+.chatContent_f087cb,
+/*Channel List*/
+.privateChannels__9b518,
+/*Guild List Wrapper*/
+.wrapper__216eb
+{
+    background: transparent!important;
+}
+
+/*main chat box-shadows*/
+.content__01e65:before, .searchBar__621ec
+{
+    border:none;
+    box-shadow: none;
+}
+
+/*Discord text*/
+.wordmarkWindows_ffbc5e
+{
+display: none;
+}
+/*
+*********************************************************************************************************
+Main Chat BG
+*********************************************************************************************************
+*/
+body, .appMount_c99875
+{
+    background: var(--mainBackground)!important;
+}
+/*
+*********************************************************************************************************
+user profiles
+*********************************************************************************************************
+*/
+/*User Profiles Overlay*/
+.userProfileInner__8ff35:before
+{
+    background: transparent;
+}
+/*User Profile Background*/
+.overlayBackground__345c9
+{
+    background:transparent;
+}
+/*User Profile*/
+.profilePanel_e2cafe
+{
+    margin: 0px;
+}
+.userPanelOuter_df01a5, .userProfileOuterThemed_a425f3,
+.userPanelInnerThemed__651e4, .bannerSVGWrapper__8a38c
+{
+border-radius: var(--fluentBorder)!important;
+}
+/*User Profile Nickname*/
+.nickname_db3773
+{
+    color:white!important;
+    font-size: var(--nickname);
+    font-weight: var(--nickWeight);
+}
+/*
+*********************************************************************************************************
+member list
+*********************************************************************************************************
+*/
+.container_f79ab4
+{
+    width: 60px;
+    overflow: hidden;
+    transition: var(--fluentTransition);
+    background-color: transparent;
+    border-radius: var(--fluentBorder);
+    margin:10px;
+    backdrop-filter: var(--blur);
+    box-shadow: var(--fluentDropShadow);
+}
+.container_f79ab4:hover
+{
+    width: 240px!important;
+    background: var(--fluentBg);
+    margin: 10px;
+}
+/*
+*********************************************************************************************************
+channel list
+*********************************************************************************************************
+*/
+.containerDefault_ae2ea4
+{
+    background: transparent;
+    margin: 5px;
+    border-radius: var(--fluentBorder);
+    min-width: 225px;
+    backdrop-filter: var(--blur);
+    box-shadow: var(--fluentDropShadow);
+    transition: var(--fluentTransition);
+}
+
+.containerDefault_ae2ea4:hover
+{
+    background: var(--fluentBg);
+}
+.wrapper__612a5:hover .link_ddbb36
+{
+    background: transparent;
+}
+/*Channel Names*/
+.name__4eb92
+{
+    text-shadow: var(--textShadow);
+}
+/*Animated guild banner*/
+.animatedContainer__0e828
+{
+    border-radius: var(--fluentBorder);
+    box-shadow: var(--fluentDropShadow)!important;
+}

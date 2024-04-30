@@ -1,0 +1,52 @@
+//META{"name":"tsuki.","description":"a discord theme influenced by windows 11's fluent design, showcasing translucency and seamless animations. smooth transitions and subtle shadows elevate your discord experience. embrace the modern allure of tsuki's design. ","author":"danimhals","version":"0.0.1"}*//{}
+/*
+╔══════════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                      ║
+║                                  ✧･ﾟ: ✧･ﾟ: 𝓉𝓈𝓊𝓀𝒾 :･ﾟ✧:･ﾟ✧                             ║
+║                                        𝐯 𝟎.𝟎.𝟏                                       ║
+║                                                                                      ║
+╚══════════════════════════════════════════════════════════════════════════════════════╝
+*/
+:root{
+/*
+*********************************************************************************************************
+Theme Settings - Images and Colors:
+PLACE THE IMAGE LINK BETWEEN THE QUOTES, HIGHLIGHT EVERYTHING IN QUOTES THEN PASTE.               
+MAIN COLOR MUST BE A HEXCODE VALUE, YOU CAN FIND A COLOR WHEEL ON GOOGLE.
+YOU CAN ALSO USE RGB OR RBGA VALUES.
+*********************************************************************************************************
+*/
+/*
+*********************************************************************************************************
+Main Background and settings
+*********************************************************************************************************
+*/
+--homeIcon           : url(""); /* Discord Icon on top left               */
+--mainBackground     : url("https://i.imgur.com/qpV9mpx.png"); /* Main Discord Background                */
+--topValue           : 0.3;                                   /* Darkness value for top main gradient   */
+--bottomValue        : 0.7;                                   /* Darkness value for bottom main gradient*/
+/*
+*********************************************************************************************************
+Coloring
+*********************************************************************************************************
+*/
+--mainColor          : #f18e75;                              /* Main Accent color of the theme       */ 
+--accentColor        : #965443;                              /* Secondary Accent color of the theme  */ 
+/*
+*********************************************************************************************************
+Theme Setting: Sizing
+    Sizes of emojis, react emojis, avatar sizing, and other options.
+*********************************************************************************************************
+*/
+/* Emojis */
+--emojiSize          : 60px;                                   /* Size of the static emojis in chat    */
+--reactionSize       : 40px;                                   /* Size of the reaction emojis          */ 
+/* Fonts */
+--fontSize           : 13px;                                   /* Font size for the user's username    */
+--messageSpacing     : 35px;                                   /* Amount of vertical space between messages*/
+                                                               /* Using higher values = more compact      */
+/*Avatars*/
+--avatarSize         : 50px;                                   /* Avatar Size                          */
+--profileAvatarSize  : 150px;                                  /* Profile Avatar Size                  */
+--avatarRound        : 50%;                                    /* Avatar roundness; 50% = Circle.      */
+}

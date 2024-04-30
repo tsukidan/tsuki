@@ -1,10 +1,12 @@
-**tsuki discord theme**
+<div align="center">
 
----
-
-### tsuki: a preview
+# <span style="color: #6ac8ff;">tsuki</span>: a preview
 
 Unlock a sleek and immersive Discord experience inspired by Windows 11's Fluent Design. tsuki blends tranquility and modernity, offering a refined interface that elevates your chat environment.
+
+</div>
+
+---
 
 ### Features:
 
@@ -18,7 +20,7 @@ Unlock a sleek and immersive Discord experience inspired by Windows 11's Fluent 
 
 ### Installation:
 
-1. Download the tsuki theme files from the [GitHub repository](https://github.com/tsuki-discord/tsuki-theme).
+1. Download the tsuki theme files from the release page, [GitHub repository](https://github.com/tsuki-discord/tsuki-theme).
   
 2. Open Discord and navigate to User Settings > Themes.
 
@@ -37,3 +39,5 @@ For any questions, issues, or feedback, please visit our [GitHub repository](htt
 tsuki theme is maintained by myself. I appreciate all contributors who help make tsuki better with each update.
 
 ---
+
+</div>

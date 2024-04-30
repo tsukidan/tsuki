@@ -1,6 +1,6 @@
 <div align="center">
 
-# <span style="color: #6ac8ff;">tsuki</span>: a preview
+# <span style="color: #6ac8ff;">tsuki</span>
 
 Unlock a sleek and immersive Discord experience inspired by Windows 11's Fluent Design. tsuki blends tranquility and modernity, offering a refined interface that elevates your chat environment.
 

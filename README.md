@@ -1,6 +1,7 @@
 <div align="center">
 
 <img alt="Name" src="https://img.shields.io/badge/tsuki-A8C1E9?style=for-the-badge">
+<br>
 <img alt="tsukimoon" src="img/tsukimoon.png" width="128px">
 
 Unlock a sleek and immersive Discord experience inspired by Windows 11's Fluent Design. tsuki blends tranquility and modernity, offering a refined interface that elevates your chat environment. With a focus on customization, tsuki allows you to personalize your Discord experience with vibrant colors, precise positioning, and tailored formatting, ensuring that your Discord client reflects your unique style.

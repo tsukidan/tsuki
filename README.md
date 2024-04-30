@@ -1,6 +1,6 @@
 <div align="center">
 
-# <span style="color: #6ac8ff;">tsuki</span>
+# <span style="color: #87CEEB; font-size: 36px;">tsuki</span>
 
 Unlock a sleek and immersive Discord experience inspired by Windows 11's Fluent Design. tsuki blends tranquility and modernity, offering a refined interface that elevates your chat environment.
 
@@ -8,7 +8,7 @@ Unlock a sleek and immersive Discord experience inspired by Windows 11's Fluent 
 
 ---
 
-### Features:
+### <span style="color: #4682B4;">Features:</span>
 
 - **Fluent Design Inspiration:** Immerse yourself in the essence of Windows 11's Fluent Design, featuring translucency and smooth animations.
   
@@ -18,7 +18,7 @@ Unlock a sleek and immersive Discord experience inspired by Windows 11's Fluent 
 
 - **Subtle Shadows:** Elevate your visual experience with subtle shadows that add depth and dimension to the interface.
 
-### Installation:
+### <span style="color: #4682B4;">Installation:</span>
 
 1. Download the tsuki theme files from the release page, [GitHub repository](https://github.com/tsuki-discord/tsuki-theme).
   
@@ -30,11 +30,11 @@ Unlock a sleek and immersive Discord experience inspired by Windows 11's Fluent 
 
 5. Enjoy your new sleek and modern Discord experience with tsuki!
 
-### Support:
+### <span style="color: #4682B4;">Support:</span>
 
 For any questions, issues, or feedback, please visit our [GitHub repository](https://github.com/tsuki-discord/tsuki-theme).
 
-### Credits:
+### <span style="color: #4682B4;">Credits:</span>
 
 tsuki theme is maintained by myself. I appreciate all contributors who help make tsuki better with each update.
 

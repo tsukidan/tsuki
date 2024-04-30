@@ -32,7 +32,7 @@ Unlock a sleek and immersive Discord experience inspired by Windows 11's Fluent 
 
 4. Enable the tsuki theme from the Themes tab in Discord settings.
 
-5. Enjoy your new sleek and modern Discord experience with tsuki!
+5. Add your images, change your colors and personalize the theme to your liking.
 
 <img alt="Name" src="https://img.shields.io/badge/Support-A8C1E9?style=for-the-badge">
 

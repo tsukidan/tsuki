@@ -22,7 +22,7 @@ Main Background and settings
 *********************************************************************************************************
 */
 --homeIcon           : url(""); /* Discord Icon on top left               */
---mainBackground     : url("https://i.imgur.com/qpV9mpx.png"); /* Main Discord Background                */
+--mainBackground     : url(""); /* Main Discord Background                */
 --topValue           : 0.3;                                   /* Darkness value for top main gradient   */
 --bottomValue        : 0.7;                                   /* Darkness value for bottom main gradient*/
 /*

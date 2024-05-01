@@ -1,4 +1,3 @@
-
 /*
 *********************************************************************************************************
  ✧･ﾟ: ✧･ﾟ: 𝓉𝓈𝓊𝓀𝒾 :･ﾟ✧:･ﾟ✧ - source
@@ -34,10 +33,12 @@ Misc Variables
 Fluent Design
 *********************************************************************************************************
 */
-  --fluentDropShadow: 2px 2px 3px #00000028;
-  --fluentBorder: 10px;
-  --fluentBg: rgba(0,0,0,0.35);
+  --fluentDropShadow: 1px 1px 2px #00000028;
+  --fluentBorderRadius: 10px;
+  --fluentBorder: 1px inset rgba(255, 255, 255, 0.1);
+  --fluentBgDark: rgba(0,0,0,0.35);
   --fluentTransition: all ease 0.4s;
+  --fluentBgPattern: url(https://i.imgur.com/RzjXQlW.png);
 }
 /*
 *********************************************************************************************************
@@ -53,14 +54,12 @@ Transparency for Main Client
 {
     background: transparent!important;
 }
-
 /*main chat box-shadows*/
 .content__01e65:before, .searchBar__621ec
 {
     border:none;
     box-shadow: none;
 }
-
 /*Discord text*/
 .wordmarkWindows_ffbc5e
 {
@@ -73,7 +72,73 @@ Main Chat BG
 */
 body, .appMount_c99875
 {
-    background: var(--mainBackground)!important;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), var(--mainBackground);
+
+    background-repeat: no-repeat;
+    background-size: cover!important;
+}
+
+/*Main Text*/
+.markup_a7e664 a
+{
+    color: var(--mainColor);
+    font-weight: 900;
+    text-shadow: 0 0 3px var(--mainColor);
+}
+/*Highlighted message*/
+.theme-dark .message_ccca67.selected_e3bc5d, 
+.theme-dark.mouse-mode.full-motion .message_ccca67:hover
+{
+    background: transparent;
+}
+/*Chat Bar*/
+.channelTextArea_c2094b
+{
+    padding: 10px;
+    background: var(--fluentBgPattern);
+    border:var(--fluentBorder);
+    box-shadow: var(--fluentDropShadow);
+    backdrop-filter: var(--blur);
+    width: 99%;
+}
+.placeholder_dec8c7
+{
+    display: none;
+}
+/*Input field*/
+.themedBackground__3a4c0{
+    background: transparent;
+}
+/*Unread Bar*/
+.barBase__8839d
+{
+    padding: 20px;
+    margin: 10px;
+    border-radius: var(--fluentBorderRadius);
+    box-shadow: var(--fluentDropShadow);
+    background: var(--fluentBgPattern);
+    backdrop-filter: var(--blur);
+    opacity: 1;
+    border: var(--fluentBorder);
+}
+.unread__48cf4
+{
+    left: -2px;
+    padding-left: 4px;
+    border-radius: 100%;;
+    background-color: var(--mainColor);
+    box-shadow: 0 0 4px var(--mainColor);
+}
+
+
+/*Icons*/
+/*Empty Channel Icon*/
+.emptyChannelIcon_d45c50
+{
+    border:var(--fluentBorder);
+    backdrop-filter: var(--blur);
+    background-color: transparent;
+    box-shadow: var(--fluentDropShadow);
 }
 /*
 *********************************************************************************************************
@@ -98,7 +163,7 @@ user profiles
 .userPanelOuter_df01a5, .userProfileOuterThemed_a425f3,
 .userPanelInnerThemed__651e4, .bannerSVGWrapper__8a38c
 {
-border-radius: var(--fluentBorder)!important;
+border-radius: var(--fluentBorderRadius)!important;
 }
 /*User Profile Nickname*/
 .nickname_db3773
@@ -118,15 +183,16 @@ member list
     overflow: hidden;
     transition: var(--fluentTransition);
     background-color: transparent;
-    border-radius: var(--fluentBorder);
+    border-radius: var(--fluentBorderRadius);
     margin:10px;
     backdrop-filter: var(--blur);
     box-shadow: var(--fluentDropShadow);
+    border: var(--fluentBorder);
 }
 .container_f79ab4:hover
 {
     width: 240px!important;
-    background: var(--fluentBg);
+    background: var(--fluentBgDark);
     margin: 10px;
 }
 /*
@@ -138,20 +204,29 @@ channel list
 {
     background: transparent;
     margin: 5px;
-    border-radius: var(--fluentBorder);
     min-width: 225px;
-    backdrop-filter: var(--blur);
-    box-shadow: var(--fluentDropShadow);
     transition: var(--fluentTransition);
 }
-
-.containerDefault_ae2ea4:hover
+/*Selected Channel*/
+.modeSelected__473f1 .link_ddbb36, .modeSelected__473f1:hover .link_ddbb36
 {
-    background: var(--fluentBg);
+    background: transparent;
+    border: 1px solid var(--mainColor);
+    box-shadow: inset 0 0 15px var(--accentColor);
 }
 .wrapper__612a5:hover .link_ddbb36
 {
     background: transparent;
+}
+/*Default Channel Pound Sign*/
+.icon__67ab4
+{
+    color: var(--mainColor);
+}
+/*Selected Channel Pound Sign*/
+.modeSelected__473f1 .icon__67ab4
+{
+    color: var(--accentColor);
 }
 /*Channel Names*/
 .name__4eb92
@@ -161,6 +236,68 @@ channel list
 /*Animated guild banner*/
 .animatedContainer__0e828
 {
-    border-radius: var(--fluentBorder);
+    border-radius: var(--fluentBorderRadius);
     box-shadow: var(--fluentDropShadow)!important;
+}
+
+.theme-dark .container__7e23c
+{
+    border-radius: var(--fluentBorderRadius);
+    margin-bottom:5px;
+    backdrop-filter: var(--blur);
+    box-shadow: var(--fluentDropShadow);
+    border:var(--fluentBorder);
+    background: var(--fluentBgPattern);
+}
+/*
+*********************************************************************************************************
+dm channel list
+*********************************************************************************************************
+*/
+.link__3a950
+{
+    background: var(--fluentBgPattern)!important;
+    backdrop-filter: var(--blur);
+    border-radius: var(--fluentBorderRadius);
+    border: var(--fluentBorder);
+    box-shadow: 0 0 3px var(--fluentDropShadow);
+    margin-top:2px;
+    margin-bottom: 2px;
+    transition: all ease 1s;
+}
+.link__3a950:hover
+{
+    box-shadow: 0 0 15px var(--mainColor);
+    border: 1px solid var(--accentColor);
+    color: var(--mainColor);
+}
+/*
+*********************************************************************************************************
+user settings (status, mute, deafen etc)
+*********************************************************************************************************
+*/
+.theme-dark .container_debb33
+{
+    background: transparent;
+}
+.panels__58331
+{
+    border: var(--fluentBorder);
+    margin-top: 10px;
+    margin-bottom: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: var(--fluentBorderRadius);
+    box-shadow: var(--fluentDropShadow);
+    backdrop-filter: var(--blur);
+    background: var(--fluentBgPattern);
+
+}
+
+.title__4a7a9
+{
+    color: var(--mainColor);
+    text-shadow: 0 0 3px var(--mainColor);
+    font-weight: 900;
+    font-size: 22px;
 }

@@ -28,7 +28,7 @@ Unlock a sleek and immersive Discord experience inspired by Windows 11's Fluent 
   
 2. Open Discord and navigate to User Settings > Themes.
 
-3. Click on 'Open Themes Folder' and paste the downloaded file (tsuki.theme.css from releases) into this directory.
+3. Click on 'Open Themes Folder' and paste the downloaded file (**tsuki.theme.css** from releases) into this directory.
 
 4. Enable the tsuki theme from the Themes tab in Discord settings.
 

@@ -7,6 +7,7 @@
 ║                                                                                      ║
 ╚══════════════════════════════════════════════════════════════════════════════════════╝
 */
+@import url("https://cdn.jsdelivr.net/gh/tsukidan/tsuki@main/src/tsuki.css");
 :root{
 /*
 *********************************************************************************************************
@@ -21,7 +22,6 @@ YOU CAN ALSO USE RGB OR RBGA VALUES.
 Main Background and settings
 *********************************************************************************************************
 */
---homeIcon           : url(""); /* Discord Icon on top left               */
 --mainBackground     : url(""); /* Main Discord Background                */
 --topValue           : 0.3;                                   /* Darkness value for top main gradient   */
 --bottomValue        : 0.7;                                   /* Darkness value for bottom main gradient*/
@@ -30,23 +30,6 @@ Main Background and settings
 Coloring
 *********************************************************************************************************
 */
---mainColor          : #f18e75;                              /* Main Accent color of the theme       */ 
---accentColor        : #965443;                              /* Secondary Accent color of the theme  */ 
-/*
-*********************************************************************************************************
-Theme Setting: Sizing
-    Sizes of emojis, react emojis, avatar sizing, and other options.
-*********************************************************************************************************
-*/
-/* Emojis */
---emojiSize          : 60px;                                   /* Size of the static emojis in chat    */
---reactionSize       : 40px;                                   /* Size of the reaction emojis          */ 
-/* Fonts */
---fontSize           : 13px;                                   /* Font size for the user's username    */
---messageSpacing     : 35px;                                   /* Amount of vertical space between messages*/
-                                                               /* Using higher values = more compact      */
-/*Avatars*/
---avatarSize         : 50px;                                   /* Avatar Size                          */
---profileAvatarSize  : 150px;                                  /* Profile Avatar Size                  */
---avatarRound        : 50%;                                    /* Avatar roundness; 50% = Circle.      */
+--mainColor          : #FFFFFF;                              /* Main Accent color of the theme       */ 
+--accentColor        : #FFFFFF;                              /* Secondary Accent color of the theme  */ 
 }

@@ -44,6 +44,6 @@ tsuki theme is maintained by myself. I appreciate all contributors who help make
 
 ---
 <img alt="Name" src="https://img.shields.io/badge/Screenshot-A8C1E9?style=for-the-badge">
-<img alt="tsukimoon" src="img/screenshot.png" width="720px">
+<img alt="tsukimoon" src="img/screenshot.png" width="1080px">
 
 </div>

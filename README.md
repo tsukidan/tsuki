@@ -43,5 +43,7 @@ For any questions, issues, or feedback, please visit the [issues page.](https://
 tsuki theme is maintained by myself. I appreciate all contributors who help make tsuki better with each update.
 
 ---
+<img alt="Name" src="https://img.shields.io/badge/Screenshot-A8C1E9?style=for-the-badge">
+<img alt="tsukimoon" src="img/screenshot.png" width="720px">
 
 </div>

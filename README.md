@@ -12,7 +12,7 @@ Unlock a sleek and immersive Discord experience inspired by Windows 11's Fluent 
 
 <img alt="Name" src="https://img.shields.io/badge/Features-A8C1E9?style=for-the-badge">
 
-```
+
 - Fluent Design Inspiration: Immerse yourself in the essence of Windows 11's Fluent Design, featuring translucency and smooth animations.
   
 - Sleek Interface: Enjoy a clean and polished interface that enhances readability and usability.
@@ -21,7 +21,7 @@ Unlock a sleek and immersive Discord experience inspired by Windows 11's Fluent 
 
 - Subtle Shadows: Elevate your visual experience with subtle shadows that add depth and dimension to the interface.
 
-```
+
 <img alt="Name" src="https://img.shields.io/badge/Installation-A8C1E9?style=for-the-badge">
 
 1. Download the tsuki theme files from the [release page](https://github.com/tsukidan/tsuki/releases).

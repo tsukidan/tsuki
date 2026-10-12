@@ -1,5 +1,15 @@
 <div align="center">
 
+<a href="https://github.com/tsukidan/hotori"><img src="https://img.shields.io/badge/OUTDATED-B91C1C?style=for-the-badge" alt="OUTDATED"></a>
+
+<p>This theme has moved to <a href="https://github.com/tsukidan/hotori"><strong>Hotori</strong></a>.<br>Visit the new repository for the current theme, installer, and updates.</p>
+
+</div>
+
+---
+
+<div align="center">
+
 <img alt="Name" src="https://img.shields.io/badge/tsuki-A8C1E9?style=for-the-badge">
 <br>
 <img alt="tsukimoon" src="img/tsukimoon.png" width="128px">
